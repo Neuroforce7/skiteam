@@ -16,22 +16,27 @@
             <label for="rugnummer" class="form-label">Rugnummer:</label>
             <input type="int" class="form-control" id="rugnummer" name="rugnummer" required><br><br>
         </div>
-        <div class="mb-3">
+        <div class="row">
+        <div class="col">
             <label for="voornaam">Voornaam:</label>
             <input type="text" class="form-control" id="voornaam" name="voornaam" required><br><br>
         </div>
-        <div class="mb-3 ">
+        <div class="col ">
             <label for="achternaam">Achternaam:</label>
             <input type="text" class="form-control" id="achternaam" name="achternaam" required><br><br>
         </div>
-        <select class="form-select" aria-label="Default select example">
+        </div>
+        <div>
+        <select class="form-select" aria-label="Default select example" name="Geslacht"required><br><br>
             <option selected>Geslacht</option>
             <option value="1">M</option>
-            <option value="2">W</option>
+            <option value="2">V</option>
+        </div>
           </select>
+          <div>
             <label for="geboortejaar">Geboortejaar:</label>
             <input type="text"  class="form-control" id="geboortejaar" name="geboortejaar" required><br><br>
-
+        </div>
             <label for="categorie">Categorie:</label>
             <select class="form-select" aria-label="Default select example" id="categorie" name="categorie" required>
                 <option value="U8">U8</option>
